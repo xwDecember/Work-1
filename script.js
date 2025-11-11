@@ -1,5 +1,6 @@
 function main() {
     // Запрос данных у пользователя
+    // Браузер может блокировать множественные prompt после первого запуска
     const day = parseInt(prompt("День рождения:"));
     const month = parseInt(prompt("Месяц рождения:"));
     const year = parseInt(prompt("Год рождения:"));
