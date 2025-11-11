@@ -21,7 +21,6 @@ function main() {
     if (today < new Date(today.getFullYear(), birthDate.getMonth(), birthDate.getDate())) age--;
     console.log(`Возраст: ${age} лет`);
     
-    // Цифры звёздочками
     const digitPatterns = {
         '0': '*** * * * * ***', '1': '  *   *   *   *   *', 
         '2': '***   *****  ***', '3': '***   ***   ******', 
